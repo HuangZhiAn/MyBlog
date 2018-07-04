@@ -70,15 +70,15 @@ Jstack生成的线程快照是文本的格式，看起来比较困难，可以�
 假死是因为线程没有响应，导致阻塞请求  
 使用 Jstack 工具生成线程快照，查看出问题时的线程状态，分析问题原因  
 使用 jps 命令查看 Tomcat 进程 pid
->![jsp](https://github.com/HuangZhiAn/MyBlog/raw/master/resource/jps.png)
+>![jsp](https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/jps.png)
 
 使用jstack生成线程快照
 
-> ![jsp](https://github.com/HuangZhiAn/MyBlog/raw/master/resource/jstack-pid.png)
+> ![jsp](https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/jstack-pid.png)
 
 这次没有使用快照分析工具，而是直接使用了文本编辑器查看  
 查看生成的文本发现有很多处于WATING状态的线程，都在等待获取数据库连接，从而定位到了是数据库连接问题
 
-[1]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/jps.png
-[2]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/top_Hp-pid.png
-[3]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/jstack-pid-grep.png
+[1]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/jps.png
+[2]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/top_Hp-pid.png
+[3]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/jstack-pid-grep.png
