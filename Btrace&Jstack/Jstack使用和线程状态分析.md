@@ -34,8 +34,8 @@ Option参数
 
 ### 1.3线程快照分析工具
 
-Jstack生成的线程快照是文本的格式，看起来比较困难，可以使用线程分析工具，如：[IBM Thread and Monitor Dump Analyze for Java](https://www.ibm.com/developerworks/community/groups/service/html/communitystart?communityUuid=2245aa39-fa5c-4475-b891-14c205f7333c)
-在线工具：[http://spotify.github.io/threaddump-analyzer](http://spotify.github.io/threaddump-analyzer/)
+Jstack生成的线程快照是文本的格式，看起来比较困难，可以使用线程分析工具，如：[IBM Thread and Monitor Dump Analyze for Java](https://www.ibm.com/developerworks/community/groups/service/html/communitystart?communityUuid=2245aa39-fa5c-4475-b891-14c205f7333c)  
+在线工具：[http://spotify.github.io/threaddump-analyzer](http://spotify.github.io/threaddump-analyzer/)  
 使用工具可以更快更清晰的看清线程状况
 
 ## 2. 使用实例
@@ -66,9 +66,9 @@ Jstack生成的线程快照是文本的格式，看起来比较困难，可以�
 该类为tomcat内部类，所以所写程序并没有占用很多cpu，应用cpu正常
 
 ### 2.2 项目中使用示例
-项目中出现 tomcat 假死的情况
-假死是因为线程没有响应，导致阻塞请求
-使用 Jstack 工具生成线程快照，查看出问题时的线程状态，分析问题原因
+项目中出现 tomcat 假死的情况  
+假死是因为线程没有响应，导致阻塞请求  
+使用 Jstack 工具生成线程快照，查看出问题时的线程状态，分析问题原因  
 使用 jps 命令查看 Tomcat 进程 pid
 >![jsp](https://github.com/HuangZhiAn/MyBlog/raw/master/resource/jps.png)
 
@@ -76,7 +76,7 @@ Jstack生成的线程快照是文本的格式，看起来比较困难，可以�
 
 > ![jsp](https://github.com/HuangZhiAn/MyBlog/raw/master/resource/jstack-pid.png)
 
-这次没有使用快照分析工具，而是直接使用了文本编辑器查看
+这次没有使用快照分析工具，而是直接使用了文本编辑器查看  
 查看生成的文本发现有很多处于WATING状态的线程，都在等待获取数据库连接，从而定位到了是数据库连接问题
 
 [1]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/jps.png
