@@ -36,11 +36,11 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 ![jps][2]
 3. 切换到进程拥有账户，如果已经是进程的启动用户，则忽略本步骤
 
-4. btracec 命令对监控脚本进行预编译，这一点很重要，可以在运行前发现错误。特别是应用到线上环境，必须强制先预编译一下，看是否报错。
+4. btracec 命令对监控脚本进行预编译，这一点很重要，可以在运行前发现错误。特别是应用到线上环境，必须强制先预编译一下，看是否报错。  
 ![btracec][3]
-5. 如需修改监控只需要停止运行后 修改脚本 然后运行脚本即可。
+5. 如需修改监控只需要停止运行后 修改脚本 然后运行脚本即可。  
 
-7. BTrace脚本在进程重启后会失效。
+6. BTrace脚本在进程重启后会失效。
 
 ## 项目中使用实例
 ### 2.1 监控数据库连接获取和释放
@@ -76,6 +76,6 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 [8]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/btrace/connection_close.png "connection_close.png"
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODAyMjM4MywxODc0ODI4Njg5LC0xMz
-Y0MTA1MDgxXX0=
+eyJoaXN0b3J5IjpbMTI0OTA0OTc2LDE4NzQ4Mjg2ODksLTEzNj
+QxMDUwODFdfQ==
 -->
