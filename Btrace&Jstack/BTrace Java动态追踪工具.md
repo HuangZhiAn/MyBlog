@@ -55,6 +55,7 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 因此，记录每次连接获取和释放，若获取次数大于释放次数则说明存在数据库连接泄漏  
 使用`Threads.jstack()` 打印调用栈，用于定位具体调用代码  
 将脚本上传服务器，btracec编译，btrace运行,将结果输出到trace.log文件  
+
 ![log][6]
 跑半天后，`ctrl+c`停止运行，得到100多M的log，部分截图如下  
 查找One connection is opened的数量和One connection is closed的数量
@@ -76,6 +77,6 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 [8]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/btrace/connection_close.png "connection_close.png"
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyNjYwNDMyLDEyOTYwNzc0NTYsMTg3ND
-gyODY4OSwtMTM2NDEwNTA4MV19
+eyJoaXN0b3J5IjpbMTc1ODk3NjI5MCwxMjk2MDc3NDU2LDE4Nz
+Q4Mjg2ODksLTEzNjQxMDUwODFdfQ==
 -->
