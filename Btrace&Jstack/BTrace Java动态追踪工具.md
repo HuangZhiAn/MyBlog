@@ -32,7 +32,7 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 
 	    chmod +x ../解压目录/bin/*
 
-2. 找到要监控的 JVM进程 PID ,可通过 **jps** 或 **ps -ef | grep java** 命令找到
+2. 找到要监控的 JVM进程 PID ,可通过 **jps** 或 **ps -ef | grep java** 命令找到  
 ![jps][2]
 3. 切换到进程拥有账户，如果已经是进程的启动用户，则忽略本步骤
 
@@ -76,5 +76,6 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 [8]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/btrace/connection_close.png "connection_close.png"
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NDgyODY4OSwtMTM2NDEwNTA4MV19
+eyJoaXN0b3J5IjpbLTk2ODAyMjM4MywxODc0ODI4Njg5LC0xMz
+Y0MTA1MDgxXX0=
 -->
