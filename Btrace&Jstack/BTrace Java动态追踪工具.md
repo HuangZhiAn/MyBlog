@@ -15,7 +15,7 @@
     
 ### 1.2 简介
 BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让它可以在程序正在运行时进行追踪，而不需要跟随应用程序一起编译重启  
-安全性：Btrace除了打印输出一些信息外，几乎禁止了一切对原运行代码的操作，包括禁止创建对象，禁止捕捉和抛出异常等。
+**安全性：** Btrace除了打印输出一些信息外，几乎禁止了一切对原运行代码的操作，包括禁止创建对象，禁止捕捉和抛出异常等。
 
 有以下几种常用的使用场景
 1. 查看代码是否执行到了某一行
@@ -76,5 +76,5 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 [8]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/btrace/connection_close.png "connection_close.png"
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxMjAzOTExLC0xMzY0MTA1MDgxXX0=
+eyJoaXN0b3J5IjpbMTg3NDgyODY4OSwtMTM2NDEwNTA4MV19
 -->
