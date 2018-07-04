@@ -3,8 +3,8 @@
 
 ## 1. 工具使用介绍
 ### 1.1 主页和下载页
-主页:  [https://github.com/btraceio/btrace](https://github.com/btraceio/btrace)
-下载页: [https://github.com/btraceio/btrace/releases/tag/v1.3.11](https://github.com/btraceio/btrace)
+主页:  [https://github.com/btraceio/btrace](https://github.com/btraceio/btrace)  
+下载页: [https://github.com/btraceio/btrace/releases/tag/v1.3.11](https://github.com/btraceio/btrace)  
 使用该工具需要设置**JAVA_HOME**环境变量，编辑文件
 
     vi /etc/profile
@@ -76,5 +76,5 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 [8]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/btrace/connection_close.png "connection_close.png"
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjQxMDUwODFdfQ==
+eyJoaXN0b3J5IjpbNjMxMjAzOTExLC0xMzY0MTA1MDgxXX0=
 -->
