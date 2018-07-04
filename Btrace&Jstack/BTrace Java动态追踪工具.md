@@ -46,7 +46,7 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 ### 2.1 监控数据库连接获取和释放
 
 项目中有遇到 tomcat 线程在一直等待数据库连接的情况，怀疑是数据库连接泄漏，咨询了项目上的同事后，仍然无法定位到是哪里的数据库操作导致连接泄漏，于是使用 Btrace 对运行中的代码进行追踪，监控数据库连接和释放情况  
-编写 Btrace 脚本[BTraceConnection.java](https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/btrace/BTraceConnection.java)
+编写 Btrace 脚本[BTraceConnection.java](https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/btrace/BTraceConnection.java)  
 项目使用tomcat jndi数据源，应用程序获取连接时会调用  org.apache.tomcat.dbcp.dbcp.PoolingDataSource类的**getConnection()** 方法
 ![getConnection][4]
 释放连接时会调用org.apache.tomcat.dbcp.dbcp.PoolableConnection类的**close()** 方法
@@ -56,7 +56,7 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 使用`Threads.jstack()` 打印调用栈，用于定位具体调用代码  
 将脚本上传服务器，btracec编译，btrace运行,将结果输出到trace.log文件
 ![log][6]
-跑半天后，`ctrl+c`停止运行，得到100多M的log，部分截图如下
+跑半天后，`ctrl+c`停止运行，得到100多M的log，部分截图如下  
 查找One connection is opened的数量和One connection is closed的数量
 发现两者数量完全一样，由此推断程序没有发生数据库泄漏的情况
 ![connection_open.png][7]
@@ -76,6 +76,6 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 [8]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/btrace/connection_close.png "connection_close.png"
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTA0OTc2LDE4NzQ4Mjg2ODksLTEzNj
+eyJoaXN0b3J5IjpbMjYwMDM2MzA0LDE4NzQ4Mjg2ODksLTEzNj
 QxMDUwODFdfQ==
 -->
