@@ -1,14 +1,14 @@
 
-<!-- MarkdownTOC -->
+<!-- MarkdownTOC autolink="true" -->
 
-- Preface
-- 1. Jstack初识
-	- 1.1 Java线程状态
-	- 1.2 使用方式
-	- 1.3线程快照分析工具
-- 2. 使用实例
-	- 2.1 使用Jstack找出最耗cpu的线程
-	- 2.2 项目中使用示例
+- [Preface](#preface)
+- [1. Jstack初识](#1-jstack%E5%88%9D%E8%AF%86)
+	- [1.1 Java线程状态](#11-java%E7%BA%BF%E7%A8%8B%E7%8A%B6%E6%80%81)
+	- [1.2 使用方式](#12-%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F)
+	- [1.3线程快照分析工具](#13%E7%BA%BF%E7%A8%8B%E5%BF%AB%E7%85%A7%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7)
+- [2. 使用实例](#2-%E4%BD%BF%E7%94%A8%E5%AE%9E%E4%BE%8B)
+	- [2.1 使用Jstack找出最耗cpu的线程](#21-%E4%BD%BF%E7%94%A8jstack%E6%89%BE%E5%87%BA%E6%9C%80%E8%80%97cpu%E7%9A%84%E7%BA%BF%E7%A8%8B)
+	- [2.2 项目中使用示例](#22-%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B)
 
 <!-- /MarkdownTOC -->
 
