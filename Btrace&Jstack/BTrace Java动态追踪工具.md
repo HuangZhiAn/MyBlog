@@ -58,7 +58,7 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 ![log][6]
 跑半天后，`ctrl+c`停止运行，得到100多M的log，部分截图如下  
 查找One connection is opened的数量和One connection is closed的数量
-发现两者数量完全一样，由此推断程序没有发生数据库泄漏的情况
+发现两者数量完全一样，由此推断程序没有发生数据库泄漏的情况  
 ![connection_open.png][7]
 ![connection_close.png][8]
 
@@ -76,6 +76,6 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 [8]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/btrace/connection_close.png "connection_close.png"
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwMDM2MzA0LDE4NzQ4Mjg2ODksLTEzNj
-QxMDUwODFdfQ==
+eyJoaXN0b3J5IjpbMTI5NjA3NzQ1NiwxODc0ODI4Njg5LC0xMz
+Y0MTA1MDgxXX0=
 -->
