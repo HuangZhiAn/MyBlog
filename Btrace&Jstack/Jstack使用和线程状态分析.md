@@ -37,8 +37,8 @@ JDK自带工具，在JDK5开始提供，可以打印指定进程中线程运行�
 
     jstack [ option ] pid
   
-  **pid**是Java进程PID
-Option参数
+  **pid**是Java进程PID  
+**Option**参数
 
 |参数|描述|
 |:----:|----|
@@ -98,5 +98,5 @@ Jstack生成的线程快照是文本的格式，看起来比较困难，可以�
 [2]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/top_Hp-pid.png
 [3]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/jstack-pid-grep.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4Nzc2MTM4XX0=
+eyJoaXN0b3J5IjpbMTc2MDk1MDk0XX0=
 -->
