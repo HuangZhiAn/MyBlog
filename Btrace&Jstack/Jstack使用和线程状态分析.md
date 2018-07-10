@@ -33,11 +33,12 @@ JDK自带工具，在JDK5开始提供，可以打印指定进程中线程运行�
  - **TERMINATED**，已退出的。
 |状态|描述|
 |:----:|----|
-|**NEW**|未启动的。不会出现在Dump中.|
-|**RUNNABLE**|在虚拟机内执行的。运行中状态，可能里面还能看到locked字样，表明它获得了某把锁.|
-|**BLOCKED**|打印java和native c/c++框架的所有栈信息.可以打印JVM的堆栈,显示上Native的栈帧，一般应用排查不需要使用|
-|-h|打印帮助信息.|
-|-help|同-h|
+|**NEW**|未启动的。不会出现在Dump中。|
+|**RUNNABLE**|在虚拟机内执行的。运行中状态，可能里面还能看到locked字样，表明它获得了某把锁。|
+|**BLOCKED**|受阻塞并等待监视器锁。被某个锁(synchronizers)給block住了。|
+|**WATING**|无限期等待另一个线程执行特定操作。等待某个condition或monitor发生，一般停留在park(), wait(), sleep(),join() 等语句里。|
+|**TIMED_WATING**|有时限的等待另一个线程的特定操作。和WAITING的区别是wait() 等语句加上了时间限制 wait(timeout)。|
+|
 
 ### 1.2 使用方式
 命令格式
@@ -106,5 +107,5 @@ Jstack生成的线程快照是文本的格式，看起来比较困难，可以�
 [2]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/top_Hp-pid.png
 [3]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/jstack-pid-grep.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTc5MDY4MDUsMTc2MDk1MDk0XX0=
+eyJoaXN0b3J5IjpbLTM5NjQ5NDU4MiwxNzYwOTUwOTRdfQ==
 -->
