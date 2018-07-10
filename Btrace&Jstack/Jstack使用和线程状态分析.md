@@ -47,7 +47,7 @@ Option参数
 
 |参数|描述|
 |:----:|----|
-|-F|当`’jstack pid’`没有相应的时候强制打印栈信息一般情况不需要使用.|
+|-F|当`'jstack pid'`没有相应的时候强制打印栈信息一般情况不需要使用.|
 |-l|长列表. 打印关于锁的附加信息，一般情况不需要使用.|
 |-m|打印java和native c/c++框架的所有栈信息.可以打印JVM的堆栈,显示上Native的栈帧，一般应用排查不需要使用|
 |-h或-help|匹配>=0个重复的在*号之前的字符.|
@@ -103,5 +103,5 @@ Jstack生成的线程快照是文本的格式，看起来比较困难，可以�
 [2]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/top_Hp-pid.png
 [3]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/jstack-pid-grep.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2OTgzNjgyOF19
+eyJoaXN0b3J5IjpbMTQ3OTIyMzAwNF19
 -->
