@@ -31,6 +31,13 @@ JDK自带工具，在JDK5开始提供，可以打印指定进程中线程运行�
  - **WATING**，无限期等待另一个线程执行特定操作。等待某个condition或monitor发生，一般停留在park(), wait(), sleep(),join() 等语句里。  
  - **TIMED_WATING**，有时限的等待另一个线程的特定操作。和WAITING的区别是wait() 等语句加上了时间限制 wait(timeout)。  
  - **TERMINATED**，已退出的。
+|状态|描述|
+|:----:|----|
+|-F|当`'jstack pid'`没有相应的时候强制打印栈信息一般情况不需要使用.|
+|-l|长列表. 打印关于锁的附加信息，一般情况不需要使用.|
+|-m|打印java和native c/c++框架的所有栈信息.可以打印JVM的堆栈,显示上Native的栈帧，一般应用排查不需要使用|
+|-h|打印帮助信息.|
+|-help|同-h|
 
 ### 1.2 使用方式
 命令格式
@@ -45,7 +52,8 @@ JDK自带工具，在JDK5开始提供，可以打印指定进程中线程运行�
 |-F|当`'jstack pid'`没有相应的时候强制打印栈信息一般情况不需要使用.|
 |-l|长列表. 打印关于锁的附加信息，一般情况不需要使用.|
 |-m|打印java和native c/c++框架的所有栈信息.可以打印JVM的堆栈,显示上Native的栈帧，一般应用排查不需要使用|
-|-h或-help|打印帮助信息.|
+|-h|打印帮助信息.|
+|-help|同-h|
 
 ### 1.3线程快照分析工具
 
@@ -98,5 +106,5 @@ Jstack生成的线程快照是文本的格式，看起来比较困难，可以�
 [2]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/top_Hp-pid.png
 [3]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/jstack-pid-grep.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0NTU1NzkxLDE3NjA5NTA5NF19
+eyJoaXN0b3J5IjpbMTU4ODA2MTI4MSwxNzYwOTUwOTRdfQ==
 -->
