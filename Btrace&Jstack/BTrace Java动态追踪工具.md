@@ -1,4 +1,5 @@
 ## Preface
+
 项目中学习使用到一个Java程序追踪工具——BTrace Java动态追踪工具，可以在程序运行期间编写脚本，查看程序运行情况。特此记录分享，希望对各位有所帮助
 
 ## 1. 工具使用介绍
@@ -77,6 +78,6 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 [8]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/btrace/connection_close.png "connection_close.png"
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODk3NjI5MCwxMjk2MDc3NDU2LDE4Nz
-Q4Mjg2ODksLTEzNjQxMDUwODFdfQ==
+eyJoaXN0b3J5IjpbNDA1MjAzMTg4LDE3NTg5NzYyOTAsMTI5Nj
+A3NzQ1NiwxODc0ODI4Njg5LC0xMzY0MTA1MDgxXX0=
 -->
