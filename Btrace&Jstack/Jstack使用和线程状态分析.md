@@ -22,7 +22,7 @@ JDK自带工具，在JDK5开始提供，可以打印指定进程中线程运行�
 
 ### 1.1 Java线程状态
 
-引用自[https://www.cnblogs.com/kongzhongqijing/articles/3630264.html](https://www.cnblogs.com/kongzhongqijing/articles/3630264.html)
+引用自[https://www.cnblogs.com/kongzhongqijing/articles/3630264.html](https://www.cnblogs.com/kongzhongqijing/articles/3630264.html)  
 想要通过jstack命令来分析线程的情况的话，首先要知道线程都有哪些状态，下面这些状态是我们使用jstack命令查看线程堆栈信息时可能会看到的线程的几种状态：  
 
 |状态|描述|
@@ -101,5 +101,5 @@ Jstack生成的线程快照是文本的格式，看起来比较困难，可以�
 [2]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/top_Hp-pid.png
 [3]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/jstack-pid-grep.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDE2MjI3MiwxNzYwOTUwOTRdfQ==
+eyJoaXN0b3J5IjpbLTMxNzE4MjA0OCwxNzYwOTUwOTRdfQ==
 -->
