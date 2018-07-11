@@ -1,7 +1,9 @@
+## Preface
+
+Jstack使用和线程状态分析
 
 <!-- MarkdownTOC autolink="true" -->
 
-- [Preface](#preface)
 - [1. Jstack初识](#1-jstack%E5%88%9D%E8%AF%86)
 	- [1.1 Java线程状态](#11-java%E7%BA%BF%E7%A8%8B%E7%8A%B6%E6%80%81)
 	- [1.2 使用方式](#12-%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F)
@@ -11,10 +13,6 @@
 	- [2.2 项目中使用示例](#22-%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B)
 
 <!-- /MarkdownTOC -->
-
-## Preface
-
-Jstack使用和线程状态分析
 
 ## 1. Jstack初识
 
@@ -101,5 +99,6 @@ Jstack生成的线程快照是文本的格式，看起来比较困难，可以�
 [2]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/top_Hp-pid.png
 [3]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/jstack/jstack-pid-grep.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzE4MjA0OCwxNzYwOTUwOTRdfQ==
+eyJoaXN0b3J5IjpbMjAzNTk3NjksLTMxNzE4MjA0OCwxNzYwOT
+UwOTRdfQ==
 -->
