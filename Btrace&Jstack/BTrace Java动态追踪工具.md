@@ -40,7 +40,7 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 在下载的压缩包里有一个samples文件夹，里面有一些常用脚本示例
 ![samples][1]
 
-### 1.4 使用方式
+### 1.3 使用方式
 
 1. 解压下载的压缩包，给bin目录下的文件赋予运行的权限  
 
@@ -56,7 +56,7 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 
 6. BTrace脚本在进程重启后会失效。
 
-## 项目中使用实例
+## 2. 项目中使用实例
 ### 2.1 监控数据库连接获取和释放
 
 项目中有遇到 tomcat 线程在一直等待数据库连接的情况，怀疑是数据库连接泄漏，咨询了项目上的同事后，仍然无法定位到是哪里的数据库操作导致连接泄漏，于是使用 Btrace 对运行中的代码进行追踪，监控数据库连接和释放情况  
@@ -91,6 +91,7 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 [8]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/btrace/connection_close.png "connection_close.png"
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTEzNzk0MiwxNzU4OTc2MjkwLDEyOT
-YwNzc0NTYsMTg3NDgyODY4OSwtMTM2NDEwNTA4MV19
+eyJoaXN0b3J5IjpbLTIzMjQ1OTc4NSwxODYxMTM3OTQyLDE3NT
+g5NzYyOTAsMTI5NjA3NzQ1NiwxODc0ODI4Njg5LC0xMzY0MTA1
+MDgxXX0=
 -->
