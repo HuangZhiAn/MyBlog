@@ -7,8 +7,10 @@
 
 正则表达式
 
+ - 常用正则表达式
 
+Shell
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDg5OTM5LDE1MDIwMDkwMzIsLTQ0MD
+eyJoaXN0b3J5IjpbMjg5ODU5MzQ5LDE1MDIwMDkwMzIsLTQ0MD
 Y5MTQ4NV19
 -->
