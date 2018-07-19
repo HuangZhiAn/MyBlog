@@ -9,8 +9,11 @@
 
  - 常用正则表达式
 
-Linuxmingling=
+Linux命令行
+
+ - ssh免密码登录
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTI2MjEwMzksMTUwMjAwOTAzMiwtND
-QwNjkxNDg1XX0=
+eyJoaXN0b3J5IjpbMTk0NDk3MDM2MywxNTAyMDA5MDMyLC00ND
+A2OTE0ODVdfQ==
 -->
