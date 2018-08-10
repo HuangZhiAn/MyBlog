@@ -12,8 +12,9 @@
 ### Linux命令行
 
  - [ssh免密码登录](https://github.com/HuangZhiAn/MyBlog/blob/master/ssh/ssh%E5%85%8D%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95.md)
+ - []https://github.com/HuangZhiAn/MyBlog/blob/master/ssh/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6.md
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTI1NjU5MDksLTg0MTQ4NTA0MSwxNT
-AyMDA5MDMyLC00NDA2OTE0ODVdfQ==
+eyJoaXN0b3J5IjpbNzYyNDA2OTM5LC0yMDEyNTY1OTA5LC04ND
+E0ODUwNDEsMTUwMjAwOTAzMiwtNDQwNjkxNDg1XX0=
 -->
