@@ -15,6 +15,14 @@ ssh免密码登录很简单
        ssh-copy-id -i ~/.ssh/id_rsa.pub 用户名@B服务器ip
      完成之后就可以使用ssh 用户名@ip命令免密码登录了
 ![](https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/ssh/copy-login.png)
+
+### SSH登录太慢
+
+> ## useDNS配置导致登陆慢
+> 
+> 如果ssh server的配置文件（通常是  `/etc/ssh/sshd_config` ）中设置  **`useDNS yes`**
+> ，可能会导致 ssh 登陆卡住几十秒。按照网上的方法将该配置项设为 no，然后重启 ssh 服务，再次登陆就恢复正常
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM4NzQ3NDkwXX0=
+eyJoaXN0b3J5IjpbLTE2NzI4ODIyMTUsOTM4NzQ3NDkwXX0=
 -->
