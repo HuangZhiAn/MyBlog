@@ -91,7 +91,7 @@ BTrace被用来动态跟踪运行java程序，使用字节码追踪方式，让�
 [8]:https://github.com/HuangZhiAn/MyBlog/raw/master/resource/images/btrace/connection_close.png "connection_close.png"
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNTQyMDU4NywxODYxMTM3OTQyLDE3NT
-g5NzYyOTAsMTI5NjA3NzQ1NiwxODc0ODI4Njg5LC0xMzY0MTA1
-MDgxXX0=
+eyJoaXN0b3J5IjpbMTQ1ODkxMjk1NiwtMzM1NDIwNTg3LDE4Nj
+ExMzc5NDIsMTc1ODk3NjI5MCwxMjk2MDc3NDU2LDE4NzQ4Mjg2
+ODksLTEzNjQxMDUwODFdfQ==
 -->
