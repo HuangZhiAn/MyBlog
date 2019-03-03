@@ -14,5 +14,5 @@
  - [ssh免密码登录](https://github.com/HuangZhiAn/MyBlog/blob/master/ssh/ssh%E5%85%8D%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95.md)
  - [命令行发送邮件](https://github.com/HuangZhiAn/MyBlog/blob/master/ssh/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6.md)
  
- ### CountDownLatch CyclicBarrier Semaphore 线程辅助类
+ ### CountDownLatch CyclicBarrier Semaphore 线程同步辅助类
  [CountDownLatch_CyclicBarrier_Semaphore](https://github.com/HuangZhiAn/MyBlog/blob/master/CountDownLatch_CyclicBarrier_Semaphore.md)
